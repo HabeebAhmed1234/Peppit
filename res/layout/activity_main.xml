@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    android:paddingBottom="5sp"
+    android:paddingTop="5sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp">
+		 
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+		    
+        <ImageButton
+            android:id="@+id/SetRingtone"
+            android:layout_margin="3dp"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:src="@drawable/ringtone_icon"/>
+        
+        <ImageButton
+            android:id = "@+id/Schedule"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@drawable/custombutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/calendar_icon"
+             />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ImBusy"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@drawable/custombutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/busy_button_off" 
+            />
+        
+        <ImageButton
+            android:id="@+id/peppitStart"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@drawable/custombutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/power_off"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_contact">Contact</string>
+    <string name="app_name">Peppit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="title_activity_schedule_manager">ScheduleManagerActivity</string>
+    <string name="help_string">Congratulations on downloading Peppit! \n\n There are a few things you need to do before starting.\n   1. Go to the device\'s Menu->Sounds\n   2. Set your phone to silent.\n   3. Turn off vibration.\n  4. Click on the music icon to set a ringtone. \n\nYou will now be able to press the icon on the bottom left to start using Peppit!  </string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>
